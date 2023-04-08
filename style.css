@@ -1,0 +1,226 @@
+#centrar{
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
+
+body {
+    background-image: url(https://fondosmil.com/fondo/32026.jpg);
+}
+
+.tamanio-centrar {
+    height: 20px;
+    margin-left: 245px;
+}
+
+/*Formulario usuario*/
+
+#formulario-usuario {
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 30px;
+    border-radius: 60px 25px;
+    padding: 15px;
+    padding-top: 15px;
+    display: none;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-2-5d-simple-stereoscopic-financial-image_40430.jpg);
+    background-size: calc(345px);
+
+}
+
+
+.tamanioInput {
+    height: 25px;
+}
+
+.label-form-documento {
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+}
+
+.label-form-edad {
+    color: rgb(0, 0, 0);
+    margin-left: 125px;
+}
+
+.label-form {
+    color: rgb(0, 0, 0);
+    margin-left: 110px;
+}
+
+/*Formulario invertir*/
+
+#centrar-invertir {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+#formInvertir {
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 30px;
+    border-radius: 25px 100px; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-2-5d-simple-stereoscopic-financial-image_40430.jpg);
+    background-size: calc(330px);
+}
+
+.tamanio-input-tarjeta {
+    height: 25px;
+}
+
+.tamanio-input-cvc {
+
+    height: 25px;
+    margin-left: 14px;
+}
+
+.centrar-tarjeta {
+
+    margin-right: 15px;
+}
+
+#resultadoDeInversion {
+    display: "none";
+}
+
+.label-form-inversion {
+    color: rgb(0, 0, 0);
+    margin-left: 75px;
+}
+
+.tamanio-centrar-invertir {
+    height: 20px;
+    margin-left: 207px;
+}
+
+.label-form-tarjeta {
+    color: rgb(0, 0, 0);
+    margin-left: 75px;
+}
+
+#mostrar-inversion {
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.mostrar-inversion{
+    display: flex;
+}
+.inversion-valor{
+
+    display: flex;
+
+}
+#mostrar-historial {
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
+    display: none;
+    
+}
+
+.historial-estilo {
+    height: 20px;
+    margin-left: 41px;
+    margin-top: -33px;
+    display: none;
+}
+
+.mostrar-parseado {
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
+    display: none;
+    flex-direction: column;
+}
+
+.boton-final {
+    display: none;
+}
+
+/*Mensajes de error*/
+
+#error {
+    justify-content: space-between;
+    margin-block-start: 50px;
+    border-radius: 20px;
+    display: none;
+    height: 50px;
+    width: auto;
+    font-size: 10px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.541);
+}
+
+/* USUARIO*/
+
+.usuario{
+    /*ponerlo flex*/
+   
+    display: flex;
+    color: white;
+    margin-right: 19px;
+    margin-top: -24px;
+
+}
+.salir{
+    width: 66px;
+    height: 32px;
+}
+.perfil{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#login{
+
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 30px;
+    border-radius: 60px 25px;
+    padding: 45px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 205px;
+    width: 255px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-2-5d-simple-stereoscopic-financial-image_40430.jpg);
+    background-size: calc(345px);
+    background-position: 1px;
+}
+
+.login-form-documento {
+    color: rgb(0, 0, 0);
+    margin-left: 58px;
+}
+
+.login-form-nombre {
+    color: rgb(0, 0, 0);
+    margin-left: 95px;
+}
+
+.botones{
+display: flex;
+}
+.boton-register{
+    height: 20px;
+    margin-left: 126px;
+    margin-top: 1px;
+
+}
+
+.boton-login{
+    height: 20px;
+    margin-left: 16px;
+    margin-top: 1px;
+}
+

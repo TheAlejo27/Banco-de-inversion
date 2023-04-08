@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="centrar">
+        <form id="login">
+
+            <label class="login-form-nombre" for="nombres">
+                Nombres
+            </label>
+            <input class="tamanioInput" type="text" id="nombres-login">
+            <label class="login-form-documento" for="documento">
+                Documento o Cuil
+            </label>
+            <input class="tamanioInput" type="password" id="documentoPass">
+            <div class="botones">
+                <input class ="boton-register" type="button" value="Register" id="botonRegister">
+                <input class ="boton-login" type="button" value="Login" id="botonLogin">
+              </div>
+        </form>
+    </div>
+    
+    <div id="centrar">
+        <form id="formulario-usuario">
+            <label class="label-form" for="nombres">
+                Nombres
+            </label>
+            <input class="tamanioInput" type="text" id="nombres">
+            <label class="label-form" for="apellido">
+                Apellido
+            </label>
+            <input class="tamanioInput" type="text" id="apellido">
+            <label class="label-form-edad" for="edad">
+                Edad
+            </label>
+            <input class="tamanioInput" type="number" id="edad">
+            <label class="label-form" for="localidad">
+                Localidad
+            </label>
+            <input class="tamanioInput" type="text" id="localidad">
+            <label class="label-form-documento" for="documento">
+                Documento o Cuil
+            </label>
+            <input class="tamanioInput" type="password" id="documento">
+            <label>
+                <input class="tamanio-centrar" type="submit" value="Enviar" id="submit">
+            </label>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

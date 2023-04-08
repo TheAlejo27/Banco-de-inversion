@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="perfil">
+        <input type="button" id="cerrar" value="SALIR" class="salir">
+        <div class="usuario" id="divUsuario">
+            <h1 class="mostrarNombre"></h1>
+        </div>
+    </div>
+    
+   
+    <div id="centrar-invertir">
+        <div id="error">
+        </div>
+        <form id="formInvertir">
+
+            <label for="cuentaAhorro" class="label-form-tarjeta">
+                Cuenta de Ahorro
+            </label>
+            <input class="tamanio-input-tarjeta" type="number" id="cuentaAhorro">
+
+            <label for="inversion" class="label-form-inversion">
+                Dinero a Invertir
+            </label>
+            <input class="tamanioInput" type="number" id="inversion">
+
+            <label for="mesesDeInversion" class="label-form-inversion">
+                Meses a Visualizar
+            </label>
+            <input class="tamanioInput" type="number" id="mesesDeInversion">
+
+            <label>
+                <input class="tamanio-centrar-invertir" type="submit" value="EnviarDinero" id="enviarDinero">
+            </label>
+        </form>
+    </div>
+    
+    
+    <canvas id="myChart"></canvas>
+    <div id="mostrar-inversion">
+        <p id="mostrar-ganancia">
+
+        </p>
+    </div>
+    <form>
+        <input class="boton-final" type="submit" value="Volver" id="finalizar">
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
